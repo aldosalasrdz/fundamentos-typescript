@@ -19,7 +19,7 @@
     return total;
   }
   function addProduct(index) {
-    if (total <= limit) {
+    if (getTotal() <= limit) {
       myCart.push(products[index]);
     }
   }
@@ -33,6 +33,4 @@
     name: 'Nicolas',
     lastName: 'Molina'
   }
-  const rta = `${person.name} ${person.lastName}`;
-  console.log(rta);
 });
