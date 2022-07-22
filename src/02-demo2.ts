@@ -1,1 +1,1 @@
-const numbers = [1, 3, 4]
+const numbers: number[] = [1, 3, 4]
