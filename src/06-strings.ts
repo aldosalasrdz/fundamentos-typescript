@@ -3,7 +3,7 @@
   productTitle = 'My amazing product changed'
   console.log({ productTitle })
 
-  const productDescription = "Mi amazing product description"
+  const productDescription = "My amazing product description"
   console.log({ productDescription })
 
   let productPrice = 100
